@@ -26,3 +26,8 @@ A project aimed at creating a Kanye-themed song purely from AI and machine learn
   - longer priming sample
   - repeated generation using windowed sampling to create a longer song
   - different styles (rock, pop, etc.) when providing metadata
+
+### Results
+
+- Lyric results can be found in nlp-output.txt, nlp2-output.txt, and gpt2-output.txt, although only the gpt2 generation was used in the jukebox music generation
+- Music results can be found in ancestral1, ancestral2, and ancestral3. Co-sampling was used for ancestral1, although it ran out of memory during upsampling so the result is not fully upsampled, and is still very noisy. ancestral3/level_0 has the best, fully upsampled music that has audible lyrics, while ancestral2/level_0 has the best, fully upsampled music with a decent beat.
